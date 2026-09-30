@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyPilot - Your AI Co-Pilot for Smarter Studying</title>
+    <meta name="description" content="StudyPilot is an AI-powered study planner that reads your syllabus, analyses past exam papers, and creates a personalised study timetable. Study smarter, not harder.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ====== NAVBAR ====== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🎓</span>
+                <span class="logo-study">Study</span><span class="logo-pilot">Pilot</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+            <a href="#waitlist" class="btn btn-nav">Join Waitlist</a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ====== HERO ====== -->
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <div class="hero-badge">🚀 AI-Powered Study Planning</div>
+                <h1>Study Smarter,<br><span class="highlight">Not Harder.</span></h1>
+                <p class="hero-subtitle">Your AI co-pilot for exam prep. Upload your syllabus, get a personalised study plan in minutes — with flashcards, quizzes, and an AI tutor built in.</p>
+                <div class="hero-cta">
+                    <a href="#waitlist" class="btn btn-primary btn-lg">Get Started Free →</a>
+                    <a href="#demo" class="btn btn-outline btn-lg">See Demo</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Universities</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number">4.8★</span>
+                        <span class="stat-label">Rating</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/landing_screen.jpg" alt="StudyPilot App - Landing Screen" loading="eager">
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path d="M0,40 C360,100 1080,0 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ====== PROBLEM & SOLUTION ====== -->
+    <section class="section" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">The Problem</span>
+                <h2>Exams are stressful.<br>Planning shouldn't be.</h2>
+                <p class="section-desc">Indian college students face massive syllabi with zero guidance on what to study, when to study it, or how much time each topic needs.</p>
+            </div>
+
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-emoji">📚</div>
+                    <h3>Information Overload</h3>
+                    <p>7-8 subjects, hundreds of topics, notes scattered across PDFs, slides, and WhatsApp groups.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-emoji">📅</div>
+                    <h3>No Smart Planning</h3>
+                    <p>Manual timetables and generic YouTube plans don't account for your strengths, weaknesses, or exam weightage.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-emoji">😰</div>
+                    <h3>Last-Minute Cramming</h3>
+                    <p>Without a feedback loop on what you've actually retained, students only find out they're unprepared during the exam.</p>
+                </div>
+            </div>
+
+            <div class="solution-block">
+                <div class="solution-content">
+                    <span class="section-badge badge-teal">The Solution</span>
+                    <h2>An AI that reads your syllabus<br>and builds your study plan.</h2>
+                    <p>StudyPilot analyses your syllabus PDF and past exam papers, identifies high-weightage topics, assesses your knowledge level, and generates a personalised, adaptive study timetable — complete with flashcards, quizzes, and revision alerts.</p>
+                    <div class="solution-steps">
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div><strong>Upload</strong> your syllabus PDF</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div><strong>Assess</strong> with a quick AI quiz</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-num">3</div>
+                            <div><strong>Study</strong> your personalised daily plan</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-num">4</div>
+                            <div><strong>Adapt</strong> — AI re-prioritises as you learn</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-image">
+                    <img src="images/dashboard_screen.jpg" alt="StudyPilot Dashboard" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FEATURES ====== -->
+    <section class="section section-grey" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Features</span>
+                <h2>Everything you need to<br>ace your exams.</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>AI Study Planner</h3>
+                    <p>Generates a day-by-day personalised timetable from your syllabus — weighted by exam importance and your strengths.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🃏</div>
+                    <h3>Smart Flashcards</h3>
+                    <p>AI-generated flashcards with spaced repetition. Review at the perfect interval for maximum retention.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI Tutor Chat</h3>
+                    <p>Ask any question, anytime. Get clear, contextual explanations — like having a senior always available.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Progress Analytics</h3>
+                    <p>Visual dashboards showing study hours, quiz scores, weak topics, and syllabus coverage at a glance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Past Paper Analysis</h3>
+                    <p>Upload previous year question papers — StudyPilot identifies high-weightage topics so you study what matters.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Revision Alerts</h3>
+                    <p>Smart notifications remind you to revise topics at optimal intervals. Never forget what you studied.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== DEMO / PREVIEW ====== -->
+    <section class="section" id="demo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Product Preview</span>
+                <h2>See StudyPilot in action.</h2>
+                <p class="section-desc">Swipe through the key screens of the app.</p>
+            </div>
+
+            <div class="demo-carousel">
+                <button class="carousel-btn prev" id="prevBtn" aria-label="Previous">‹</button>
+                <div class="carousel-track-container">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-slide">
+                            <img src="images/dashboard_screen.jpg" alt="Dashboard">
+                            <p class="slide-label">Daily Study Dashboard</p>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/flashcards_screen.jpg" alt="Flashcards">
+                            <p class="slide-label">Smart Flashcards</p>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/ai_chat_screen.jpg" alt="AI Tutor">
+                            <p class="slide-label">AI Tutor Chat</p>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/results_screen.jpg" alt="Progress Analytics">
+                            <p class="slide-label">Progress Analytics</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" id="nextBtn" aria-label="Next">›</button>
+            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </section>
+
+    <!-- ====== TESTIMONIALS ====== -->
+    <section class="section section-grey" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Social Proof</span>
+                <h2>Loved by students across India.</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"StudyPilot literally saved my semester. I went from 6.2 to 8.1 CGPA just by following the daily plan. The flashcards are a game-changer."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">PS</div>
+                        <div>
+                            <strong>Priya Sharma</strong>
+                            <span>B.Tech CS, Mumbai University</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"I was spending 2 hours every Sunday making study plans. Now I upload my syllabus and it's done in 2 minutes. The AI tutor explains things better than YouTube."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div>
+                            <strong>Rohan Kumar</strong>
+                            <span>GATE Aspirant, Delhi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"The revision alerts are so smart. Just when I'm about to forget something, StudyPilot sends me a flashcard session. My retention has never been this good."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AF</div>
+                        <div>
+                            <strong>Ananya Fernandes</strong>
+                            <span>B.Com, Christ University</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trust-bar">
+                <div class="trust-item">
+                    <span class="trust-number">10,000+</span>
+                    <span class="trust-label">Active Students</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">50+</span>
+                    <span class="trust-label">Universities Supported</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">2.5M+</span>
+                    <span class="trust-label">Flashcards Created</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">93%</span>
+                    <span class="trust-label">Report Better Scores</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PRICING ====== -->
+    <section class="section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Pricing</span>
+                <h2>Plans built for student budgets.</h2>
+                <p class="section-desc">Start free. Upgrade when you're ready.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-tier">Free</div>
+                    <div class="pricing-price">₹0<span>/forever</span></div>
+                    <ul class="pricing-features">
+                        <li>✓ 1 subject study plan</li>
+                        <li>✓ 5 flashcards per day</li>
+                        <li>✓ Basic progress tracking</li>
+                        <li>✓ 5 AI tutor queries/day</li>
+                        <li class="muted">✗ Past paper analysis</li>
+                        <li class="muted">✗ Advanced analytics</li>
+                    </ul>
+                    <a href="#waitlist" class="btn btn-outline btn-full">Get Started</a>
+                </div>
+
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-tier">Pro Student</div>
+                    <div class="pricing-price">₹149<span>/month</span></div>
+                    <div class="pricing-annual">or ₹999/year (save 44%)</div>
+                    <ul class="pricing-features">
+                        <li>✓ Unlimited subjects</li>
+                        <li>✓ Unlimited flashcards</li>
+                        <li>✓ Full AI tutor access</li>
+                        <li>✓ Past paper analysis</li>
+                        <li>✓ Advanced analytics</li>
+                        <li>✓ Spaced repetition engine</li>
+                    </ul>
+                    <a href="#waitlist" class="btn btn-primary btn-full">Join Waitlist</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-tier">Pro Aspirant</div>
+                    <div class="pricing-price">₹249<span>/month</span></div>
+                    <div class="pricing-annual">or ₹1,799/year (save 40%)</div>
+                    <ul class="pricing-features">
+                        <li>✓ Everything in Pro</li>
+                        <li>✓ Multi-exam support</li>
+                        <li>✓ Custom study goals</li>
+                        <li>✓ Priority AI responses</li>
+                        <li>✓ GATE/CAT/UPSC plans</li>
+                        <li>✓ Offline flashcards</li>
+                    </ul>
+                    <a href="#waitlist" class="btn btn-outline btn-full">Join Waitlist</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== WAITLIST / CTA ====== -->
+    <section class="section section-cta" id="waitlist">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to study smarter?</h2>
+                <p>Join the waitlist and be the first to get access. Early users get <strong>3 months of Pro — free.</strong></p>
+                <form class="waitlist-form" id="waitlistForm">
+                    <input type="email" placeholder="Enter your email address" required id="emailInput">
+                    <button type="submit" class="btn btn-primary btn-lg">Join Waitlist →</button>
+                </form>
+                <p class="form-note">🔒 No spam, ever. Unsubscribe anytime.</p>
+                <div class="success-message" id="successMessage">
+                    ✅ You're on the list! We'll notify you when StudyPilot launches.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-icon">🎓</span>
+                    <span class="logo-study">Study</span><span class="logo-pilot">Pilot</span>
+                </a>
+                <p>Your AI co-pilot for smarter studying.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Product</h4>
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#demo">Demo</a>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 StudyPilot Technologies Pvt. Ltd. Made with ❤️ in Mumbai, India.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
